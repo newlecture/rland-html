@@ -1,0 +1,94 @@
+.deco{
+    display: inline-flex;
+    align-items: center;
+
+    transition: 1s;
+}
+
+.deco:hover{
+    background-color: black;
+    color:#fff;
+}
+
+.deco::before{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    /* background:url(../../image/note.svg) no-repeat center;
+    background-size: 16px 16px; */
+    
+    background-color: #000;
+    
+    mask-size:16px 16px;    
+    -webkit-mask-size:16px 16px;
+
+    transition: 1s;
+}
+
+.deco-note::before{  
+    mask-image:url(../../image/note.svg);    
+    -webkit-mask-image:url(../../image/note.svg); 
+}
+
+
+.deco-note:hover::before{
+    background-color: yellow;
+}
+
+.deco-category{
+    display: inline-flex;
+    align-items: center;
+
+    transition: 1s;
+}
+
+.deco-category:hover{
+    background-color: black;
+    color:#fff;
+
+}
+
+.deco-category::before{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    /* background:url(../../image/note.svg) no-repeat center;
+    background-size: 16px 16px; */
+
+    background-color: green;
+    mask-image:url(../../image/category.svg);
+    mask-size:16px 16px;
+    -webkit-mask-image:url(../../image/category.svg);
+    -webkit-mask-size:16px 16px;
+
+    transition: 1s;
+}
+
+.deco-category:hover::before{
+    background-color: yellow;
+}
+
+/* .deco-note{
+    display: inline-flex;
+    align-items: center;
+}
+
+.deco-note::before{
+    content: '';
+    display: inline-block;
+    width:24px;
+    height: 24px;
+    background: url(/image/note.svg) no-repeat left center;
+    background-size: 16px 16px;
+} */
+
+/* ---- dec utils --------------------------- */
+.deco-blue::before{  
+    background-color: blue;
+}
+
+.deco-red::before{  
+    background-color: red;
+}
