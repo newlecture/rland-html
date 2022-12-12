@@ -6,8 +6,9 @@
     align-items: center;
     justify-content: center;
     transition: background-color .5s;
-
-
+}
+.btn-new{
+    
 }
 
 .btn-default{
