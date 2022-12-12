@@ -6,8 +6,10 @@
     align-items: center;
     justify-content: center;
     transition: background-color .5s;
+}
 
-
+.btn-new{
+    /* 새로운 버튼 스타일 */
 }
 
 .btn-default{
