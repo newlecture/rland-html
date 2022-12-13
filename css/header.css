@@ -5,6 +5,14 @@
     display: flex;
     align-items: center;
 }
-.header div{
-    background-color: red;
+
+
+<<<<<<< HEAD
+.header span{
+    color: aquamarine;
 }
+=======
+.header{
+    background-color: skyblue;
+}
+>>>>>>> 8531d7248431e3fe6de93546d55fe319608ddf73
