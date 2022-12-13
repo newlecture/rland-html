@@ -5,3 +5,22 @@
     display: flex;
     align-items: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+.header div{
+    background-color: aquamarine;
+=======
+.header div{
+    background-color: red;
+>>>>>>> fe85492c04093768703a94249dd8f0eca6151077
+}
+=======
+
+
+
+.header{
+    background-color: skyblue;
+}
+
+>>>>>>> fadd7d53ea31be8f7db5bd32c1ca53188b17e43e
