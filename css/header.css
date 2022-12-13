@@ -5,7 +5,12 @@
     display: flex;
     align-items: center;
 }
+<<<<<<< HEAD
 
 .header div{
     background-color: aquamarine;
+=======
+.header div{
+    background-color: red;
+>>>>>>> fe85492c04093768703a94249dd8f0eca6151077
 }

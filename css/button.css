@@ -7,11 +7,15 @@
     justify-content: center;
     transition: background-color .5s;
 }
+<<<<<<< HEAD
 .btn-new{
     
 }
 
 
+=======
+/* 므엥에에에엥에에ㅔ엥 */
+>>>>>>> fe85492c04093768703a94249dd8f0eca6151077
 .btn-default{
     border-radius: 20px;
     border: 1px solid #A24F17;
@@ -19,7 +23,8 @@
 }
 
 .btn-default-fill{
-    background-color: #A24F17;         
+    background-color: #A24F17;       
+    /* 안녕하세요  */
 }
 
 .btn-default-line{
