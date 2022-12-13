@@ -6,10 +6,8 @@
     align-items: center;
     justify-content: center;
     transition: background-color .5s;
-
-
 }
-
+/* 므엥에에에엥에에ㅔ엥 */
 .btn-default{
     border-radius: 20px;
     border: 1px solid #A24F17;
@@ -17,7 +15,8 @@
 }
 
 .btn-default-fill{
-    background-color: #A24F17;         
+    background-color: #A24F17;       
+    /* 안녕하세요  */
 }
 
 .btn-default-line{
